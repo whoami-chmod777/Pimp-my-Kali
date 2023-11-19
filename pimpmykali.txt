@@ -1,0 +1,24 @@
+
+-- Manuall --
+
+
+
+
+
+
+
+-- pimpmykali script --
+
+# Remove existing pimpmykali folder
+rm -rf pimpmykali/
+
+# Clone pimpmykali repository & enter the folder
+git clone https://github.com/Dewalt-arch/pimpmykali
+cd pimpmykali
+
+# Execute the script - For a new Kali VM, run menu option 'N'
+# (The scirpt must be run with root privileges)
+sudo ./pimpmykali.sh
+
+
+
